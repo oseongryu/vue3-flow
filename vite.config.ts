@@ -15,6 +15,6 @@ export default defineConfig({
   base: '/',
   build: {
     // outDir: './dist',
-    assetsDir: './dist',
+    assetsDir: './vue3-flow',
   },
 })
