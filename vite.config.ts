@@ -12,9 +12,9 @@ export default defineConfig({
       '@': fileURLToPath(new URL('./src', import.meta.url)),
     },
   },
-  base: '/',
+  base: '/vue3-flow/',
   build: {
-    // outDir: './dist',
-    assetsDir: 'dist',
+    outDir: 'dist',
+    // assetsDir: 'dist',
   },
 })
