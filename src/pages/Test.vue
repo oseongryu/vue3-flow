@@ -1,12 +1,14 @@
 <template>
-  <div class="test">
-    <h1>This is an test page</h1>
+  <div class="common-layout">
+    <el-container>
+      <el-header>Header</el-header>
+      <el-main>Main</el-main>
+    </el-container>
   </div>
 </template>
-
 <style>
 @media (min-width: 1024px) {
-  .test {
+  .about {
     min-height: 100vh;
     display: flex;
     align-items: center;
